@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  background: linear-gradient(
+    90deg,
+    rgba(8, 0, 255, 1) 33%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.todo {
+  width: 300px;
+  height: auto;
+  margin: auto;
+
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+
+.inputs {
+  display: flex;
+  justify-content: center;
+}
+.inputs input {
+  width: 300px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+}
+
+.inputs button {
+  padding: 10px;
+  font-size: 17px;
+  border: none;
+  border-radius: 5px;
+  background-color: yellow;
+  outline: yellow;
+  border: 1px solid yellow;
+}
+.inputs button:hover icon {
+  transform: rotate(45deg);
+}
+::placeholder {
+  padding-left: 10px;
+}
+
+.todos-item {
+  border: 1px solid yellow;
+  width: 285px;
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  background-color: aquamarine;
+  border-radius: 5px;
+}
+.todos-item button {
+  padding: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+.task {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.task button {
+  padding: 10px;
+  border: none;
+  font-weight: bold;
+}
